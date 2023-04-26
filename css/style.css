@@ -5,6 +5,47 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: red;
+/* CUSTOM PROPERTIES */
+:root {
+}
+
+/* UTILITY */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.border {
+    border: 2px dashed black;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+/* HEADER */
+header {
+    background-color: #add8e6;
+    padding: 15px 0px;
+}
+
+#header-menu {
+    justify-content: center;
+    background-color: #daa520;
+}
+
+.logo {
+    flex-basis: 20%;
+}
+
+.login {
+    flex-basis: 20%;
+}
+
+.navbar {
+    flex-basis: 60%;
 }
