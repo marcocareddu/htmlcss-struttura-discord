@@ -75,7 +75,7 @@ header {
     text-align: right;
 }
 
-.jumbo-container {
+.jumbo-box {
     background-color: #00008b;
     height: 500px;
 }
@@ -105,4 +105,14 @@ figure {
     height: 100%;
     flex-basis: 40%;
     background-color: #ffc0cb;
+}
+
+.big-box {
+    height: 1000px;
+}
+
+.big-block {
+    height: 900px;
+    background-color: forestgreen;
+    flex-basis: 100%;
 }
