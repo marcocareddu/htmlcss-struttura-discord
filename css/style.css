@@ -61,7 +61,6 @@ header {
     text-align: right;
 }
 
-/* MAIN */
 .jumbo-container {
     background-color: #00008b;
     height: 500px;
@@ -74,3 +73,28 @@ header {
     height: 400px;
     flex-basis: 45%;
 }
+
+/* MAIN */
+.invite-container {
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.invite-block {
+    height: 500px;
+    flex-basis: 60%;
+}
+
+figure {
+    height: 100%;
+    background-color: #1e90ff;
+    flex-basis: 60%;
+}
+
+.caption {
+    height: 100%;
+    flex-basis: 40%;
+    background-color: #ffc0cb;
+
+}
+
