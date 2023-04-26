@@ -50,6 +50,10 @@
     background-color: lightgray;
 }
 
+.bgc-dgray {
+    background-color: #23272a;
+}
+
 /* HEADER */
 header {
     background-color: #add8e6;
@@ -107,6 +111,7 @@ figure {
     background-color: #ffc0cb;
 }
 
+/* BIG-BLOCK */
 .big-box {
     height: 1000px;
 }
@@ -115,4 +120,46 @@ figure {
     height: 900px;
     background-color: forestgreen;
     flex-basis: 100%;
+}
+
+/* BIG FOOTER */
+#big-footer {
+    padding-top: 5px;
+}
+.social {
+    height: 100%;
+    background-color: #f08080;
+    flex-basis: 30%;
+}
+
+.col-box {
+    height: 100%;
+    flex-basis: 70%;
+    background-color: #20b2aa;
+}
+
+.column {
+    height: 100%;
+    flex-basis: 25%;
+    border: 2px dashed white;
+}
+
+/* LITTLE FOOTER */
+.foot-box {
+    height: 90px;
+    border-top: 2px solid #cecece;
+    border-bottom: 2px solid #cecece;
+}
+
+.little-foot {
+    align-self: flex-end;
+    height: 60px;
+    flex-basis: 100%;
+    background-color: #7fffd4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.div-button > p {
+    padding: 5px;
 }
