@@ -36,6 +36,20 @@
     font-size: 20px;
 }
 
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+/* COLORS BGC */
+.bgc-lgray {
+    background-color: lightgray;
+}
+
 /* HEADER */
 header {
     background-color: #add8e6;
@@ -64,8 +78,6 @@ header {
 .jumbo-container {
     background-color: #00008b;
     height: 500px;
-    align-items: center;
-    justify-content: center;
 }
 
 .jumbotron {
@@ -75,14 +87,12 @@ header {
 }
 
 /* MAIN */
-.invite-container {
+.block-box {
     height: 600px;
-    align-items: center;
-    justify-content: center;
 }
-.invite-block {
+.block {
     height: 500px;
-    flex-basis: 60%;
+    flex-basis: 100%;
 }
 
 figure {
@@ -95,6 +105,4 @@ figure {
     height: 100%;
     flex-basis: 40%;
     background-color: #ffc0cb;
-
 }
-
